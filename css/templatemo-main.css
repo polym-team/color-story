@@ -192,11 +192,22 @@ a:hover {
   padding-left: 15px;
   padding-right: 15px;
   padding-top: 15vh;
-  background-image: url(../img/colorstory/image2.jpg);
   background-attachment: fixed;
   min-height: 100vh;
   background-size: cover;
   background-position: center center;
+}
+
+.service-content.shipping {
+  background-image: url(../img/colorstory/image2.jpg);
+}
+
+.service-content.return {
+  background-image: url(../img/colorstory/image2.jpg);
+}
+
+.service-content.careers {
+  background-image: url(../img/colorstory/test2.jpg);
 }
 
 .service-content .left-text h4,
@@ -255,7 +266,7 @@ h4,
 
 .projects-content {
   padding-top: 20vh;
-  background-image: url(../img/colorstory/image3.jpg);
+  background-image: url(../img/colorstory/image_bg5.jpg);
 }
 
 .projects-content .item img {
@@ -758,4 +769,8 @@ body.lb-disable-scrolling {
   cursor: pointer;
   filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
   opacity: 1;
+}
+
+.text-white {
+  color: #FFF;
 }
